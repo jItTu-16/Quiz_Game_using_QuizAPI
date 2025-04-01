@@ -11,6 +11,7 @@ Features:-
 Requirements:-
   Python 3
   requests library (pip install requests)
+  QuizAPI key (replace API_KEY in the script)
 
 Usage:-
   Run the script and follow the on-screen instructions to play the quiz.

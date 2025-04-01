@@ -1,0 +1,636 @@
+[
+    {
+        "id": 466,
+        "question": "Which of the following will provide additional Information about something?",
+        "description": null,
+        "answers": {
+            "answer_a": "Jumbotron",
+            "answer_b": "Item",
+            "answer_c": "Label-danger",
+            "answer_d": "Label",
+            "answer_e": null,
+            "answer_f": null},
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"},
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [{"name": "HTML"}],
+        "category": "Code",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 1223,
+        "question": "What does the oc new-app command do in OpenShift?",
+        "description": "The oc new-app command is used to create a new application in OpenShift using source code, images, or templates.",
+        "answers": {
+            "answer_a": "It deploys only Docker images",
+            "answer_b": "It creates a new application using source code, images, or templates",
+            "answer_c": "It deletes existing applications",
+            "answer_d": "It installs OpenShift plugins",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The oc new-app command can deploy applications from code, images, or templates, facilitating quick setup.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Openshift"
+            }
+        ],
+        "category": "DevOps",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 3363,
+        "question": "Which command is used to enable a service to start on boot in Ubuntu?",
+        "description": "Enabling a service to start on boot ensures it is always running after the system is restarted.",
+        "answers": {
+            "answer_a": "Use 'sudo systemctl enable service_name'",
+            "answer_b": "Run 'serviceboot service_name'",
+            "answer_c": "Type 'enable-service service_name'",
+            "answer_d": "Use 'bootstart service_name'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "To enable a service to start on boot, use 'sudo systemctl enable service_name'.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Ubuntu"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 1309,
+        "question": "What is the default scheduler used by OpenShift for assigning pods to nodes?",
+        "description": "OpenShift uses a scheduler to manage pod assignments across nodes based on resources and policies.",
+        "answers": {
+            "answer_a": "Balanced Scheduler",
+            "answer_b": "Kube Scheduler",
+            "answer_c": "Round-Robin Scheduler",
+            "answer_d": "Priority Scheduler",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "OpenShift uses the Kube Scheduler by default to assign pods to nodes based on resources and scheduling policies.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Openshift"
+            }
+        ],
+        "category": "DevOps",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 363,
+        "question": "What improvements can be made to the query UPDATE students SET `contact number` = 0999;",
+        "description": null,
+        "answers": {
+            "answer_a": "The query does not need any improvements",
+            "answer_b": "enclose the contact number in single quotes",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "category": "SQL",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 614,
+        "question": "What does the unset() function do?",
+        "description": null,
+        "answers": {
+            "answer_a": "The unset() function is dedicated for variable management. It will make a variable undefined.",
+            "answer_b": "The unset() function is not dedicated for variable management. It will make a variable defined.",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "PHP"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 2152,
+        "question": "Your Laravel application's tests are running slowly. Which change would most improve the test execution speed?",
+        "description": "Understanding Laravel's testing optimization.",
+        "answers": {
+            "answer_a": "Adding more test cases",
+            "answer_b": "Using database transactions for tests and avoiding unnecessary trait includes",
+            "answer_c": "Running tests in random order",
+            "answer_d": "Adding more assertions",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "Using database transactions for tests prevents slow database cleanup between tests, and avoiding unnecessary trait includes reduces the bootstrap time for each test. This combination significantly improves test execution speed.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Laravel"
+            }
+        ],
+        "category": "Laravel",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 244,
+        "question": "What is the default DATE field type format?",
+        "description": null,
+        "answers": {
+            "answer_a": "DD-MM-YYYY",
+            "answer_b": "YYYY-DD-MM",
+            "answer_c": "YYYY-MM-DD",
+            "answer_d": "MM-DD-YY",
+            "answer_e": "MMDDYYYY",
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "category": "SQL",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 3610,
+        "question": "Which command is used to simulate the installation of a package in Ubuntu without actually installing it?",
+        "description": "Simulating an installation helps in seeing what changes will be made without actually performing them.",
+        "answers": {
+            "answer_a": "Use 'apt-get install --simulate package_name'",
+            "answer_b": "Run 'apt-simulate package_name'",
+            "answer_c": "Type 'install-test package'",
+            "answer_d": "Use 'simulate-package'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "To simulate the installation of a package, use 'apt-get install --simulate'.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Ubuntu"
+            }
+        ],
+        "category": "SQL",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 1023,
+        "question": "What does the FROM instruction do in a Dockerfile?",
+        "description": null,
+        "answers": {
+            "answer_a": "FROM creates a layer from a base Docker image.",
+            "answer_b": "FROM specifies the creator of the image",
+            "answer_c": "FROM is an invalid instruction",
+            "answer_d": "FROM adds files from your Docker client’s current directory",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 1644,
+        "question": "What is the key difference between using forwardRef and directly passing refs as props?",
+        "description": "Understanding React's ref forwarding mechanism.",
+        "answers": {
+            "answer_a": "forwardRef uses less memory",
+            "answer_b": "forwardRef allows a component to receive a ref and pass it to a child component",
+            "answer_c": "forwardRef is faster than passing refs as props",
+            "answer_d": "There is no difference between the two approaches",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "forwardRef is a React feature that allows components to take a ref prop and forward it to a child component. Unlike passing refs as regular props, forwardRef maintains the ref semantics and allows the parent component to directly access the DOM node or component instance of the child.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "React"
+            }
+        ],
+        "category": "React",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 2245,
+        "question": "Which SQL function can efficiently calculate the running total of sales for each month without a window frame?",
+        "description": "Calculating running totals without window frame specification.",
+        "answers": {
+            "answer_a": "SUM() OVER (ORDER BY date)",
+            "answer_b": "RANK() OVER (PARTITION BY month)",
+            "answer_c": "COUNT() WITH SUM",
+            "answer_d": "ROLLUP function",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "SUM() with ORDER BY provides a running total when used with window functions.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "category": "SQL",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 744,
+        "question": "How to mark a node called my-node as schedulable in Kubernetes?",
+        "description": null,
+        "answers": {
+            "answer_a": "kubectl schedulable my-node",
+            "answer_b": "kubectl up my-node",
+            "answer_c": "kubectl available my-node",
+            "answer_d": "kubectl uncordon my-node",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Kubernetes"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 2253,
+        "question": "What would be the best way to prevent deadlocks in transactions that update multiple tables?",
+        "description": "Preventing deadlocks in complex transactions.",
+        "answers": {
+            "answer_a": "Maintain a consistent ordering of table updates",
+            "answer_b": "Use nested transactions",
+            "answer_c": "Lock tables for exclusive access",
+            "answer_d": "Avoid using indexes",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "Maintaining a consistent ordering of table updates across transactions reduces the risk of deadlocks.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "category": "SQL",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 1251,
+        "question": "What command in OpenShift would you use to patch a running pod with new configurations?",
+        "description": "The oc patch command is used to apply updates to the configurations of existing resources, like pods.",
+        "answers": {
+            "answer_a": "oc update pod \u003Cpod-name\u003E",
+            "answer_b": "oc patch pod \u003Cpod-name\u003E",
+            "answer_c": "oc edit pod \u003Cpod-name\u003E",
+            "answer_d": "oc config pod \u003Cpod-name\u003E",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The oc patch command allows for modifying live configurations of resources, such as pods.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Openshift"
+            }
+        ],
+        "category": "DevOps",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 2079,
+        "question": "What is the purpose of Laravel's Dusk?",
+        "description": "Understanding Laravel's browser testing tools.",
+        "answers": {
+            "answer_a": "To manage dark mode",
+            "answer_b": "To provide browser automation and testing API",
+            "answer_c": "To handle UI themes",
+            "answer_d": "To manage color schemes",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "Laravel Dusk provides an expressive, easy-to-use browser automation and testing API. It allows you to write automated tests that interact with your application just like a real user would in a browser.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Laravel"
+            }
+        ],
+        "category": "Laravel",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 1000,
+        "question": "Kubernetes can be configured in a multi-Master Node configuration. True or False?",
+        "description": null,
+        "answers": {
+            "answer_a": "True",
+            "answer_b": "False",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Kubernetes"
+            }
+        ],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 1880,
+        "question": "What function starts a new thread in the 'threading' module?",
+        "description": "The 'threading' module provides functions to create and manage threads.",
+        "answers": {
+            "answer_a": "run()",
+            "answer_b": "begin()",
+            "answer_c": "start()",
+            "answer_d": "execute()",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The 'start()' function in the 'threading' module starts a new thread, allowing it to run its target function concurrently.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Python"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 1765,
+        "question": "Can a metaclass be used to enforce coding standards in classes?",
+        "description": "Metaclasses can be used to ensure that certain coding standards are followed when creating classes.",
+        "answers": {
+            "answer_a": "No, metaclasses cannot affect coding standards",
+            "answer_b": "Yes, metaclasses can enforce rules during class creation",
+            "answer_c": "Only when using decorators",
+            "answer_d": "Only when inheriting from 'type'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "Metaclasses can be used to enforce coding standards by adding checks during the creation of a class, ensuring that certain criteria are met.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Python"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 2043,
+        "question": "Which operation is more efficient in a linked list compared to an array?",
+        "description": "Different data structures provide different efficiencies for common operations.",
+        "answers": {
+            "answer_a": "Accessing an element by index",
+            "answer_b": "Inserting an element at the beginning",
+            "answer_c": "Sorting elements",
+            "answer_d": "Accessing the last element",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "Inserting an element at the beginning of a linked list is efficient (O(1)) compared to an array, where elements need to be shifted (O(n)).",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Python"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Medium"
+    }
+]
